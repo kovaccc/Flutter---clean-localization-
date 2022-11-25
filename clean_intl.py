@@ -18,7 +18,7 @@ def find_localization_map_by_intl_file_name(localization_maps, file_name):
 
 
 def get_searched_dart_files():
-    root_folders = ["lib/features", "lib/common", "lib/core"]
+    root_folders = ["lib/features", "lib/common", "lib/core"]  # change this if it is needed
     dart_files = []
     for folder in root_folders:
         for root, _, files in os.walk(folder):
@@ -60,4 +60,3 @@ for file in arb_paths:
         print(find_localization_map_by_intl_file_name(filtered_localization_maps, file))
         json.dump(find_localization_map_by_intl_file_name(filtered_localization_maps, file), outfile, indent=4,
                   ensure_ascii=False)
-
