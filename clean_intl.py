@@ -58,5 +58,5 @@ for localization_map in localization_maps:
 for file in arb_paths:
     with open(file, "w", encoding='utf-8-sig') as outfile:
         print(find_localization_map_by_intl_file_name(filtered_localization_maps, file))
-        json.dump(find_localization_map_by_intl_file_name(filtered_localization_maps, file), outfile, indent=4,
+        json.dump(find_localization_map_by_intl_file_name(filtered_localization_maps, file), outfile, indent=2,
                   ensure_ascii=False)
