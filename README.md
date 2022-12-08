@@ -24,6 +24,10 @@ arb_generator:
 
 <img width="867" alt="image" src="https://user-images.githubusercontent.com/75457058/206392711-77a6d971-4ecf-4c29-953f-3afcbc385e0f.png">
 
-- Run [this script](https://github.com/kovaccc/Flutter---clean-localization-)to remove unused descriptions and other strings from your .arb files by adding it to your application directory
+- Run [this script](https://github.com/kovaccc/Flutter---clean-localization-) to remove unused descriptions and other strings from your .arb files by adding it to your application directory (clean_intl.py). You will maybe need to adjust root_folders variable in the script depending on your project structure
 
 <img width="290" alt="image" src="https://user-images.githubusercontent.com/75457058/206390556-20998396-003e-44a0-8e40-967711d43a8a.png"> 
+
+- You will get cleaned .arb files
+
+<img width="867" alt="image" src="https://user-images.githubusercontent.com/75457058/206394093-efc3ca77-70bd-48c5-81ff-1b21e406eb1f.png">
